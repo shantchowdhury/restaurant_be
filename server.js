@@ -14,7 +14,7 @@ const port = 4000;
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"], // Add both origins
+    origin: ["https://restaurant-fe.onrender.com", "https://restaurant-admin-kjri.onrender.com"], // Add both origins
     credentials: true // If you're sending cookies or authorization headers
 }));
 
